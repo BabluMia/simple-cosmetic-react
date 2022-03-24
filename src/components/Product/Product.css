@@ -1,0 +1,29 @@
+.cart{
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 22px 4px rgba(255,45,45,0.71);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.cart:hover{
+    transform: translateY(-10px);
+    transition: .5s all ease;
+}
+img{
+    height: 100% !important;
+}
+.custom-btn{
+    border: 2px solid rgb(190, 156, 92);
+    background-color:rgb(190, 156, 92) ;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 33px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.custom-btn:hover{
+    background-color: aqua;
+    color: rgb(190, 156, 92);
+    transition: .5s all ease;
+}

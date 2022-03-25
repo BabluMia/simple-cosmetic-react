@@ -6,8 +6,10 @@ import Products from './components/Products/Products';
 
 function App() {
   const [count,setCount] = useState(0)
-  const addToCart = (id) =>{
+  const addToCart = (name) =>{
     setCount(count + 1);
+    // return '<li>{name}</li>'
+    console.log(name);
   } 
   return (
     <div className="App">
